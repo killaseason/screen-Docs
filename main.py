@@ -1,4 +1,5 @@
 import urllib
+import re
 
 def getMaster(year, month, day):
        """Retrieves the master index for a given date, strips crap from header, and saves it."""
